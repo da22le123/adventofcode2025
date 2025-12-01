@@ -3,8 +3,8 @@ package org.example.day1;
 import org.example.AocInput;
 import org.example.Puzzle;
 
-public class SecretEntrance extends Puzzle {
-    public SecretEntrance(AocInput input) {
+public class SecretEntrancePart1 extends Puzzle {
+    public SecretEntrancePart1(AocInput input) {
         super(input);
     }
 
