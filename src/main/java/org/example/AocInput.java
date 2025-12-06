@@ -28,7 +28,7 @@ public class AocInput implements Iterable<String> {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                if (line.isEmpty()) break; // Empty line ends input
+                if (line.equals("end")) break; // Empty line ends input
                 lines.add(line);
             }
         } catch (IOException e) {
