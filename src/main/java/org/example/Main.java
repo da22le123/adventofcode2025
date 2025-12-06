@@ -9,11 +9,13 @@ import org.example.day4.PrintingDepartmentPart1;
 import org.example.day4.PrintingDepartmentPart2;
 import org.example.day5.CafeteriaPart1;
 import org.example.day5.CafeteriaPart2;
+import org.example.day6.TrashCompactorPart1;
+import org.example.day6.TrashCompactorPart2;
 
 public class Main {
     public static void main(String[] args) {
         AocInput aocInput = AocInput.read();
-        Puzzle puzzle = new CafeteriaPart2(aocInput);
+        Puzzle puzzle = new TrashCompactorPart2(aocInput);
         if (puzzle.solve() instanceof Long res) {
             System.out.println(res);
         } else {
